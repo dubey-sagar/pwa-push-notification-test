@@ -17,7 +17,7 @@ export default {
         "!src/setupTests.ts",
         "!src/reportWebVitals.ts"// Exclude test files
     ],
-    coverageDirectory: "<rootDir>/testcoverage",
+    coverageDirectory: "<rootDir>/testCoverage",
     testMatch: ['**/__tests__/**/*.+(ts|tsx|js)', '**/?(*.)+(spec|test).+(ts|tsx|js)'],
     setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
     "coverageThreshold": {
