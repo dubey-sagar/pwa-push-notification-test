@@ -1,6 +1,6 @@
 name: Unit Testing
 
-on: [pill_request]
+on: [pull_request]
 
 jobs:
   tests:
