@@ -13,7 +13,7 @@ export default {
         "!src/**/*.spec.ts",
         "!src/serviceWorkerRegistration.ts", // Exclude test files
     ],
-    coverageDirectory: "/CIcoverage",
+    coverageDirectory: "<rootDir>/testcoverage",
     testMatch: ['**/__tests__/**/*.+(ts|tsx|js)', '**/?(*.)+(spec|test).+(ts|tsx|js)'],
     setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
     "coverageThreshold": {
