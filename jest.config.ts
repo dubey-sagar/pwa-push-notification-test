@@ -10,7 +10,8 @@ export default {
     collectCoverage: true,
     collectCoverageFrom: [
         "src/**/*.ts", // Include the relevant source files
-        "!src/**/*.spec.ts", // Exclude test files
+        "!src/**/*.spec.ts",
+        "!src/serviceWorkerRegistration.ts", // Exclude test files
     ],
     coverageDirectory: "/CIcoverage",
     testMatch: ['**/__tests__/**/*.+(ts|tsx|js)', '**/?(*.)+(spec|test).+(ts|tsx|js)'],
