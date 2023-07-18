@@ -11,7 +11,11 @@ export default {
     collectCoverageFrom: [
         "src/**/*.ts", // Include the relevant source files
         "!src/**/*.spec.ts",
-        "!src/serviceWorkerRegistration.ts", // Exclude test files
+        "!src/serviceWorkerRegistration.ts",
+        "!src/service-worker.ts",
+        "!src/**/*.d.{ts,ts}",
+        "!src/setupTests.ts",
+        "!src/reportWebVital.ts"// Exclude test files
     ],
     coverageDirectory: "<rootDir>/testcoverage",
     testMatch: ['**/__tests__/**/*.+(ts|tsx|js)', '**/?(*.)+(spec|test).+(ts|tsx|js)'],
